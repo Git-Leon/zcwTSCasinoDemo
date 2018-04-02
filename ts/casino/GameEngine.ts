@@ -1,9 +1,9 @@
-abstract class GameEngine<PlayerType extends PlayerInterface,
+abstract class GameEngine<
+    PlayerType extends PlayerInterface,
     GameType extends GameInterface<PlayerType>>
     implements GameEngineInterface<PlayerType, GameType> {
 
     private game: GameInterface<PlayerType>;
-
     constructor(game: GameInterface<PlayerType>) {
         this.game = game;
     }

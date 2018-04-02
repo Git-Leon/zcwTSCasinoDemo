@@ -1,5 +1,5 @@
-/// <reference path="AliceBob.ts" />
+/// <reference path="Application.ts" />
 
 
-let aliceBob = new AliceBob();
+let aliceBob = new Application();
 aliceBob.init();

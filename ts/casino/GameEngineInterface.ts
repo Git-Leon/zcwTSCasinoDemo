@@ -5,5 +5,4 @@ interface GameEngineInterface<
     getGame():GameInterface<GameTypePlayer>
     evaluateTurn(player:GameTypePlayer);
     run();
-
 }
